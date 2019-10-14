@@ -34,8 +34,16 @@ public class MainActivity extends AppCompatActivity {
         TextView colors = (TextView) findViewById(R.id.colors);
         TextView phrases = (TextView) findViewById(R.id.phrases);
         TextView family = (TextView) findViewById(R.id.family);
+        
+        /*
+            The findViewById method is a factory method which returns the View Object having the id specified in the argument
+        */
 
         // Event Listeners to switch to corresponding activity
+        /*
+            Event listeners are implmented by overrriding the interface method of the particular event
+            Evenet handlers are the overriden method and event listener are the "setOn" methods
+        */
         numbers.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
