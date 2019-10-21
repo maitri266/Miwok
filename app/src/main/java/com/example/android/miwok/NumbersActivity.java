@@ -30,6 +30,11 @@ public class NumbersActivity extends AppCompatActivity {
         ListView listView = (ListView) findViewById(R.id.list);
 
         listView.setAdapter(wordAdapter);
+        
+        //list traversal by sid hctbr fst
+        for(int i=0;i<word.size;i++){
+            System.out.println(word.get(i));
+        }
 
     }
 }
