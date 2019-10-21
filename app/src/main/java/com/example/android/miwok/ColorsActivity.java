@@ -22,6 +22,12 @@ public class ColorsActivity extends AppCompatActivity {
         word.add(new Word("white", "kelelli", R.drawable.color_white, R.raw.color_white));
         word.add(new Word("dusty yellow", "ṭopiisә", R.drawable.color_dusty_yellow, R.raw.color_dusty_yellow));
         word.add(new Word("mustard yellow", "chiwiiṭә", R.drawable.color_mustard_yellow, R.raw.color_mustard_yellow));
+        
+        //hf
+        for(int i=0;i<word.size;i++){
+            System.out.println(word.get(i));
+        }
+            
 
         WordAdapter wordAdapter = new WordAdapter(this, word, R.color.category_colors);
 
