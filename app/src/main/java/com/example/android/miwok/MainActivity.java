@@ -34,6 +34,9 @@ public class MainActivity extends AppCompatActivity {
         TextView colors = (TextView) findViewById(R.id.colors);
         TextView phrases = (TextView) findViewById(R.id.phrases);
         TextView family = (TextView) findViewById(R.id.family);
+        
+        //hf
+        System.out.println(numbers.getText());
 
         // Event Listeners to switch to corresponding activity
         numbers.setOnClickListener(new View.OnClickListener() {
